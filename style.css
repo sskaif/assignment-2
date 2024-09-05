@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    position: relative;
+    
+}
+.main{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+  
+
+}
+#cl1{
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    position: absolute;
+}
+#cl2{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+#cl3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(3, 115, 243);
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+#cl4{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 4.5rem;
+    margin-left: 4.5rem;
+}
+#cl5{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:6rem ;
+    margin-left: 6rem;
+}
